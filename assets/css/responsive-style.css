@@ -1,0 +1,143 @@
+.visible-xs {
+	display: none !important;
+}
+
+.hidden-xs {
+	display: block !important;
+}
+
+
+
+@media(max-width: 1500px) {
+
+	body,
+	html {
+		font-size: 15px;
+	}
+}
+
+
+@media(max-width: 1200px) {
+
+	body,
+	html {
+		font-size: 14px;
+	}
+}
+
+@media(max-width: 1300px) {
+
+	.objective-inner1x {
+		width: 30rem;
+	}
+
+	.objective-inner2x {
+		width: calc(100% - 30rem);
+		padding-left: 2rem;
+		margin-left: 2rem;
+	}
+}
+
+@media(max-width: 992px) {
+
+	body,
+	html {
+		font-size: 13px;
+	}
+
+	.objective-inner1x {
+		width: 50%;
+	}
+
+	.objective-inner2x {
+		width: 50%;
+		padding-left: 1rem;
+		margin-left: 1rem;
+	}
+
+	.table-first {
+		overflow-x: scroll;
+		min-width: 100%;
+		width: 100%;
+	}
+
+	.table-first .table {
+		min-width: 75rem;
+	}
+
+	.under-steps-r {
+		padding: 0.75rem;
+	}
+
+	.under-steps-r a {
+		font-size: 0.875rem;
+	}
+}
+
+@media(max-width: 767px) {
+	.visible-xs {
+		display: block !important;
+	}
+
+	.hidden-xs {
+		display: none !important;
+	}
+
+	.objective-inner1x {
+		width: 100%;
+	}
+
+	.objective-inner2x {
+		width: 100%;
+		padding-left: 0;
+		margin-left: 0;
+		border-left: 0;
+		border-top: 1px solid #ccc;
+		padding-top: 1.5rem;
+	}
+
+	.objective-col {
+		flex-direction: column;
+		gap: 2rem;
+	}
+
+	.a-tag-head {
+		font-size: 1.5rem;
+	}
+
+	.under-tag-head {
+		font-size: 1.25rem;
+	}
+
+	.lorem-text {
+		font-size: 1rem;
+	}
+
+	.lorem-img h6 {
+		font-size: 1.125rem;
+	}
+
+	.pro-lorem p {
+		font-size: 1rem;
+	}
+
+	.resources-content {
+		padding-left: 0.75rem;
+	}
+
+	.complete-the-step-col {
+		gap: 0.25rem;
+	}
+
+	.complete-the-step-col button {
+		gap: 0.125rem;
+	}
+
+	.complete-the-step-col label {
+		gap: 0.125rem;
+	}
+
+	.sticky-sec {
+		display: none;
+	}
+}
